@@ -14,7 +14,7 @@ const Fetch = () => {
     }, []);
     return (
         <>
-            <div className="font-Wasabi text-3xl p-4 leading-relaxed">{quote}</div>
+            <div className="font-Wasabi text-3xl p-4 tracking-wider">{quote}</div>
             <div className="p-4 text-right">- {author}</div>
         </>
     );
